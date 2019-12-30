@@ -97,7 +97,7 @@ do
 	    echo loadfile tv:// > $MPLAYER_CONTROL
 	    sleep $TIMEOUT
 	    new_image
-	    echo loadfile "mf://wiz.jpg" > $MPLAYER_CONTROL
+	    echo loadfile "mf://out.jpg" > $MPLAYER_CONTROL
 	fi
     elif [ $(( $current_time - $old_time )) -ge $WAIT_TIME ]; then
 	# change the image currently shown
