@@ -82,7 +82,7 @@ pin_mode $BUTTON "in"
 
 # set up light
 export_pin $LED
-pin_mod $LED "out"
+pin_mode $LED "out"
 set_value $LED 1
 
 # initialize variables
